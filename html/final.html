@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Bulletin Board Website</title>
+    <style>
+        /* Add your custom CSS styles here */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Bulletin Board</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Post a Message</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Messages</h2>
+            <ul id="message-list">
+                <!-- Display messages dynamically using JavaScript -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2022 My Bulletin Board</p>
+    </footer>
+
+    <script>
+        // Add your JavaScript code here to handle form submission and display messages
+    </script>
+</body>
+</html>

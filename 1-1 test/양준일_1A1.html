@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>중간고사 실기</title>
+    <style>
+        table {
+            text-align: center;
+            vertical-align: middle;
+            font-weight: bold;
+        }
+        h2 {
+            color: red;
+        }
+        td.name {
+            background-color: cyan;
+        }
+        td#name:hover {
+            background-color: gold;
+        }
+        td#school:hover {
+            background-color: lightyellow;
+            color: blue;
+        }
+        td#last:hover {
+            font-size: 30px;
+        }
+        td#hpage {
+            background-color: lightgreen;
+        }
+        img {
+            height: 80px;
+        }
+        hr {
+            border: 2px dashed red;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td id="name" class="name">이름</td>
+            <td id="school" rowspan="2">
+                <h2>수강과목</h2><br>
+                <ul style="text-align: left;">
+                    <li>HTML5/CSS</li>
+                    <li>통계학</li>
+                    <li>Linux</li>
+                </ul>
+            </td>
+            <td id="hpage" rowspan="2" colspan="2"><a href="https://naver.com"><img src="5f9a4cf615cfd2738de6.jpg"><hr>NAVER 홈페이지</a></td>
+        </tr>
+        <tr>
+            <td id="name" rowspan="2">양준일<br>Yang,Junil</td>
+        </tr>
+        <tr>
+            <td id="school">연암공과대학교<br>스마트소프트웨어학과</td>
+            <td id="hpage"><a href="https://bluesmileuniv.netlify.app"><img src="MC8pCMtJ1hoZsxKeED62zg00dGA3a6mZaXbWJTqpLkUw6tl3d-mho_9a969GFX2g8H-7wwdEobOeP2HjAVEgsg.webp"><hr>My Homepage</a></td>
+            <td id="last">중간고사</td>
+        </tr>
+    </table>
+    <hr style="border: 2px solid red;">
+    <button>클릭!</button>
+</body>
+</html>
